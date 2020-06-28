@@ -1,0 +1,16 @@
+{
+  "project": {
+    "a": {
+      "describe": "全部请求",
+      "open": true
+    },
+    "s": {
+      "describe": "成功请求",
+      "open": true
+    },
+    "f": {
+      "describe": "失败请求",
+      "open": true
+    }
+  }
+}
