@@ -1,0 +1,6 @@
+MiniDLPUMath.php  实现各种算法的数学库（php版）
+testMath.php  测试数学库的脚本（PHP版）
+
+MiniDLPUMath.js  实现各种算法的数学库（js版）
+MD5Base64.js  数学库的依赖（js版）
+testMath.js  测试数学库的脚本（js版）
