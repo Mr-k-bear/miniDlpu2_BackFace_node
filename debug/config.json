@@ -1,0 +1,94 @@
+{
+  "debugger": {
+    "value": true,
+    "describe": "是否打开调试模式"
+  },
+
+  "outputRange":{
+    "fileRead": {
+      "success": true,
+      "fail": true,
+      "describe": "输出文件读取信息"
+    },
+    "fileWrite": {
+      "success": true,
+      "fail": true,
+      "describe": "输出文件写入信息"
+    },
+    "apiRequest": {
+      "success": true,
+      "fail": true,
+      "describe": "输出请求请求错误信息"
+    },
+    "getRequest": {
+      "success": true,
+      "fail": true,
+      "describe": "输出静态内容获取API信息"
+    },
+    "crawlerRequest": {
+      "success": true,
+      "fail": true,
+      "describe": "输出爬虫API信息"
+    },
+    "statisticsRequest": {
+      "success": true,
+      "fail": true,
+      "describe": "输出用户信息统计API信息"
+    },
+    "rootRequest": {
+      "success": true,
+      "fail": true,
+      "describe": "输出后台请求的信息"
+    }
+  },
+
+  "outputContent": {
+    "time": {
+      "value": true,
+      "describe": "时间"
+    },
+    "why": {
+      "value": true,
+      "describe": "原因"
+    },
+    "code": {
+      "value": true,
+      "describe": "状态"
+    },
+    "data": {
+      "value": true,
+      "describe": "备注"
+    },
+    "url": {
+      "value": true,
+      "describe": "url"
+    },
+    "ip": {
+      "value": true,
+      "describe": "访问者IP"
+    },
+    "header": {
+      "value": true,
+      "describe": "访问者请求头"
+    },
+    "body": {
+      "value": true,
+      "describe": "访问者数据"
+    }
+  },
+
+  "maxSize": {
+    "value": 25,
+    "describe": "日志文件换页大小，单位KB"
+  },
+
+  "timeout": {
+    "value": 1,
+    "describe": "日志文件多久记录一次，单位秒"
+  },
+
+  "console": {
+    "value": true,
+    "describe": "是否开启控制台输出"
+  }
+}
